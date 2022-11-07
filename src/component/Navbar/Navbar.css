@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+nav ul {
+    
+
+}
+.head{
+    color: #64ffda;
+}
+.navitem{
+    text-decoration: none;
+    color: #CCD6F6;
+    font-size: 16px;
+   padding-left: 10px;
+   margin: 10px;
+}
+.navitem:hover{
+    color: #64ffda;
+}
+.col{
+    color: #64ffda;
+}
+
+@media only screen and (max-width: 688px) {
+    ul {
+        display: none;
+    }
+  }

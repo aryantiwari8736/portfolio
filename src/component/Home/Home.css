@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+}
+.partition{
+display: flex;
+justify-content: space-around;
+}
+.sidepart{
+margin-right: 10px ;
+width: 30vw;
+display: flex;
+flex-direction: column;
+
+ 
+}
+.sidepart2{
+   margin-left: 10px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    
+    
+     
+    }
+.icoco1{
+   cursor: pointer;
+   color: #CCD6F6;
+   margin-bottom: 20px;
+   position: fixed;
+  bottom: 1px;
+   
+}
+.icoco2{
+    cursor: pointer;
+    color: #CCD6F6;
+    margin-bottom: 20px;
+    position: fixed;
+    bottom: 52px;
+}
+@media only screen and (max-width: 688px) {
+    .sidepart{
+        display: none;
+    }
+    .sidepart2{
+        display: none;
+    }
+  }
