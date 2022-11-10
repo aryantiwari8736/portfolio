@@ -5,7 +5,6 @@ import First from '../firstcomponent/First'
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 import Project from '../Project/Project'
-import Skills from '../Skills/Skills'
 
 import './Home.css'
 function Home() {
@@ -16,7 +15,9 @@ function Home() {
     <div className='sidepart'> <a href="https://github.com/aryantiwari8736"><i class="fa-brands fa-github fa-2x icoco1"></i></a><a href=""><i class="fa-solid fa-link fa-2x icoco2"></i></a></div>
     <div>
     <First/>
+    
     <About/>
+    
     <Project/>
     <Contact/>
     <Footer/>

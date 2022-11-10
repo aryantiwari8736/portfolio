@@ -4,7 +4,7 @@ import project1  from '../../assets/project.png'
 function Projectcard() {
   return (
     <div className='main'>
-        <div className='projecthead'><span className='head'>0.2</span> Somethings I've built </div>
+        <div className='projecthead'><span className='projhead'> 0.2 </span>Somethings I've built </div>
         <div className='projcont'>
       <img src={project1} alt="" className='img' />
       <div className='aboutproject'>

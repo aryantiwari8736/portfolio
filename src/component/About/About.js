@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='cont'>
       <section>
-        <div className='abohead'> <span className='head'>01. </span>About Me</div>
+        <div className='abohead' > <span className='abospanhead'>01. </span>About Me</div>
         <div className='cont'>
           <div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates dolore, architecto maiores aut dolorem distinctio sapiente inventore error. A hic ipsam dolor, repudiandae omnis vel rem numquam assumenda ducimus nemo obcaecati maxime id fugiat amet sapiente ab accusamus quos veritatis sit nisi? Nisi aut autem ipsa dolorum doloribus, consequatur aliquid magnam veniam tenetur eveniet enim ratione architecto quod laborum fugiat deserunt nulla magni pariatur est optio illo quibusdam quisquam ad reiciendis! Dicta architecto aliquid a iusto fugit, quia laborum voluptate placeat sit fugiat debitis facilis, nisi non? Quod et voluptatem eos sit placeat ad aperiam, nisi eaque nam laborum praesentium Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio doloremque officia? Magnam sunt, accusantium ullam ab iure totam veritatis natus ipsa omnis, quia minus neque quis quasi tenetur optio?.</p>

@@ -27,3 +27,19 @@ text-align: justify;
   border-color: #64ffda;
   cursor: pointer;
 }
+@media only screen and (max-width: 688px) {
+  .cotactcont{
+    margin-top: 80px;
+  }
+  .contbio{
+  display: flex;
+  width: fit-content;
+  margin: 20px;
+ }
+ .contmid{
+  color: #CCD6F6;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 30px;
+}
+}
