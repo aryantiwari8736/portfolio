@@ -1,70 +1,47 @@
-section{
-    display: flex;
-    flex-direction: column;
+.landing-page-first-sec {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
-    
+  margin: 20px;
 }
-.datahead1{
-    color: #64ffda;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 50px;
+.land-name{
+    color: #64ffda; 
+    margin-bottom: 10px; 
 }
 .datahead{
-    font-size: 4.5rem;
-    color: #8892b0;
-    font-weight: bold;
-    margin: 10px;
+  color: #8892b0;
+  font-size: 6vw;
+  font-weight: bolder;
+  margin-bottom: 10px;
 }
-.head2{
-    color: #ccd6f6;
+
+
+.mypara {
+  color: #8892b0;
+  line-height: 30px;
+  display: flex;
+  text-align: justify;
+ 
 }
-.mypara{
-    color: #8892b0 ;
-    margin: 20px;
-    width: 50vw;
-    display: flex;
-    text-align: justify;
+.btn {
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 20px;
+  cursor: pointer;
 }
-.btn{
-    margin-left: 20px;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    color: #64ffda;
-    border: 1px solid #64ffda;
-    border-radius: 4px;
-    padding: 20px;
-    cursor: pointer;
+.btn:hover {
+  background-color: #697393;
 }
-.btn:hover{
-    background-color: #697393;
-}
-.link{
-    color: #64ffda;
-    text-decoration: none;
+.link {
+  color: #64ffda;
+  text-decoration: none;
 }
 @media only screen and (max-width: 688px) {
-    .datahead1{
-        color: #64ffda;
-        margin: 20px;
-    }
-    .datahead{
-        font-size: 2.5rem;
-        color: #8892b0;
-        font-weight: bold;
-        margin: 10px;
-    }
-    .mypara{
-        display: flex;
-        text-align: justify;
-        justify-content: center;
-        align-items: center;
-        width: fit-content;
-    }
-    .btn{
-       
-        margin-bottom: 50px;
-        
-    }
-  }
+ .btn{
+    margin-bottom: 50px;
+ }
+}

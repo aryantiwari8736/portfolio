@@ -4,11 +4,20 @@
     margin-bottom: 40px;
     font-weight: bold;
 }
+
+.about-det-cont{
+    width: 80vw;
+}
 .abospanhead{
     font-size: 1.9rem;
     margin-bottom: 60px;
     color: #64ffda;
     margin-left: 10px;
+}
+.aboutme-para{
+    font-size: 1.2em;
+    margin: 10px;
+    line-height: 30px;
 }
 .cont{
     display: flex;
@@ -16,19 +25,22 @@
     justify-content: space-around;
     color: #8892b0;
     margin-top: 50px;
+    align-items: center;
 
 }
 .cont p {
     display: flex;
     text-align: justify;
 }
+.skill-heading{
+    margin-top: 10px;
+    color: #64ffda;
+}
 .img{
-    margin-left: 20px;
-    margin-right: 20px;
-    max-width: 100%;
-    height: auto;
+    
+     width:50vw;
     border-radius: 10px;
-    margin-bottom: 200px;
+    
     
 }
 .skill{
@@ -77,6 +89,13 @@ li::before {content: "• "; color: #64ffda}
     .abospanhead{
         font-size: 1.6rem;
         margin-bottom: 30px;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        margin: 2px;
     }
 
   }

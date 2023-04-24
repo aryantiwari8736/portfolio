@@ -26,12 +26,3 @@ nav{
     color: #64ffda;
 }
 
-@media only screen and (max-width: 688px) {
-    ul {
-        display: none;
-    }
-    nav{
-        display: flex  ;
-        justify-content: center;
-    }
-  }
