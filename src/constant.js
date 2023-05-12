@@ -5,7 +5,7 @@ export const data = [
     detail: "It is a food ordering website like zomato ,swiggy etc.",
     tech: "ReactJs , Redux , JSX , Css , Javascript",
     git_link: "https://github.com/aryantiwari8736/FoodSpy",
-    proj_link: "foodspy.netlify.app",
+    proj_link: "https://foodspy.netlify.app/",
   },
   {
     img_link: "epo.png",
