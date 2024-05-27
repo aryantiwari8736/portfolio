@@ -6,7 +6,12 @@
 }
 
 .about-det-cont{
-    width: 80vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 .abospanhead{
     font-size: 1.9rem;
@@ -18,7 +23,7 @@
     font-size: 1.2em;
     margin: 10px;
     line-height: 30px;
-
+text-align: justify;
 }
 .cont{
     display: flex;
@@ -36,7 +41,7 @@
    
 }
 .skill-heading{
-    margin-top: 10px;
+  
     color: #64ffda;
 }
 .img{
@@ -49,6 +54,7 @@
 .skill{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .list  {
    margin: 40px;
@@ -73,7 +79,8 @@ li::before {content: "• "; color: #64ffda}
     }
   }
   
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 448px) {
+    
     .cont p {
       display: flex;
       width: fit-content;

@@ -5,10 +5,10 @@ function About() {
   return (
     <div className="cont">
       <section>
-        <div className="abohead">
-          {" "}
-          <span className="abospanhead">01. </span>About Me
-        </div>
+      <div className="projecthead">
+        <div className="projhead"> 0.2  </div>
+        <div> About Me{" "}</div>
+      </div>
         <div className="cont">
           <div className="about-det-cont">
             <p className="aboutme-para">
@@ -17,8 +17,9 @@ function About() {
               from Sai Inter College. I have secured All U.P rank 7 in class
               12th board examination.
             </p>
+            <div className="skill-heading">My Skills :-</div>
             <div className="skill">
-              <div className="skill-heading">My Skills :-</div>
+            
               <ul className="list">
                 <li>Html</li>
                 <li>CSS</li>
@@ -46,12 +47,19 @@ function About() {
                 <li>AWS</li>
                 <li>Hosting</li>
               </ul>
+              <ul className="list">
+                <li>C++</li>
+                <li>DSA</li>
+                <li>Problem-Solving</li>
+                <li>Networking</li>
+                <li>DBMS</li>
+                <li>Operating System</li>
+                <li>Design</li>
+              </ul>
             </div>
           </div>
 
-          <div>
-            <img src={me} alt="myself" className="img" />
-          </div>
+         
         </div>
       </section>
     </div>

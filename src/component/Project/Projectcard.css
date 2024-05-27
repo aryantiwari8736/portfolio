@@ -2,16 +2,7 @@
     margin: 40px;
     margin-top: 80px;
 }
-.projhead{
-    font-size: 1.8rem;
-    color: #64ffda;
-}
-.projecthead{
-    color: #CCD6F6;
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 80px;
-}
+
 .projcont{
     display: flex;
     justify-content: space-between;
@@ -69,16 +60,4 @@
       flex-direction: column;
       align-items: center;
         }
-  }
-  @media only screen and (max-width: 688px) {
-    .projecthead {
-      display: flex;
-    font-size: 1.6rem;
-    margin-left: 10px;
-        }
-        .projhead {
-            display: flex;
-          font-size: 1.6rem;
-          margin-right: 10px;
-              }
   }

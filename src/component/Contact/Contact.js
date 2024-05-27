@@ -7,8 +7,8 @@ function Contact() {
       <div className="contmid">Connect With Me</div>
       <div className="contbio">
         I love to talk about different technologies like -
-        Frontend-Development,Backend-Development,A.I,M.L etc.Feel free to
-        message me any time
+        Frontend-Development, Backend-Development, Devops, etc. Feel free to
+        message me any time.
       </div>
       <a href="https://twitter.com/aryantiwari_14">
         <button className="contbtn"> Say Hi</button>

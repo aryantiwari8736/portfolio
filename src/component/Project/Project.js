@@ -6,7 +6,8 @@ function Project() {
   return (
     <div className="project_cont">
       <div className="projecthead">
-        <span className="projhead"> 0.2 </span>Somethings I've built{" "}
+        <div className="projhead"> 0.2  </div>
+        <div> Somethings I've built{" "}</div>
       </div>
       <div className="pro_cont_2">
       {data.map((e) => (
