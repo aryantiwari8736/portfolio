@@ -7,7 +7,7 @@ function Projectcard({ data }) {
     <div className="main">
       
       <div className="projcont">
-        <img src={data.img_link} alt="" className="img" />
+        <img src={data.img_link} alt="project_img" className="img" />
         <div className="aboutproject">
           <div className="aboutprojhead">Featured Project</div>
           <div className="projname">{data.heading}</div>

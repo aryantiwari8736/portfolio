@@ -50,7 +50,7 @@ function About() {
           </div>
 
           <div>
-            <img src={me} alt="" className="img" />
+            <img src={me} alt="myself" className="img" />
           </div>
         </div>
       </section>

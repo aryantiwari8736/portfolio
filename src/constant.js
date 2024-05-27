@@ -1,6 +1,6 @@
 export const data = [
   {
-    img_link: "springbee.png",
+    img_link: "springbee.jpg",
     heading: "SpringBee",
     detail: "It is a lms portal website.",
     tech: "Next, typescript, node, express, socket, redis, mongoDb.",
@@ -8,7 +8,7 @@ export const data = [
     proj_link: "https://springbee.live",
   },
   {
-    img_link: "technocrats.png",
+    img_link: "technocrats.jpg",
     heading: "Technocrats",
     detail: "Official website of Technocrats club kiet",
     tech: "ReactJs, Javscript, Tailwind CSS.",
@@ -16,7 +16,7 @@ export const data = [
     proj_link: "https://technocrats.live/",
   },
   {
-    img_link: "ching.png",
+    img_link: "ching.jpg",
     heading: "foodspy",
     detail: "It is a food ordering website like zomato ,swiggy etc.",
     tech: "ReactJs , Redux , JSX , Css , Javascript",
@@ -32,7 +32,7 @@ export const data = [
     proj_link: "https://epoqueatprastuti.netlify.app/",
   },
   {
-    img_link: "brain.png",
+    img_link: "brain.jpg",
     heading: "BrainBIts",
     detail: "This is a Community Website,Using by more than 500 students ",
     tech: "ReactJs , JSX , Css , Javascript",
