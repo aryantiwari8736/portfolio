@@ -12,9 +12,9 @@ function About() {
         <div className="cont">
           <div className="about-det-cont">
             <p className="aboutme-para">
-              My name is Aryan Tiwari .Currently pursuing B.Tech from KIET .I
-              love to develop websites . I have completed my initial education
-              from Sai Inter College . I have secured All U.P rank 7 in class
+              My name is Aryan Tiwari. Currently pursuing B.Tech from KIET. I am from Lucknow, 
+              love to develop websites. I have completed my initial education
+              from Sai Inter College. I have secured All U.P rank 7 in class
               12th board examination.
             </p>
             <div className="skill">
@@ -26,14 +26,25 @@ function About() {
                 <li>Tailwind</li>
                 <li>Javascript</li>
                 <li>React Js</li>
+                <li>Redux</li>
               </ul>
               <ul className="list">
-                <li>NodeJs</li>
-                <li>ExpressJs</li>
+                <li>Node</li>
+                <li>Express</li>
                 <li>MongoDb</li>
-                <li>PassportJs</li>
+                <li>Postgres</li>
+                <li>Passport</li>
                 <li>Deployment</li>
-                <li>Git Github Js</li>
+                <li>Git Github</li>
+              </ul>
+              <ul className="list">
+                <li>Docker</li>
+                <li>Testing</li>
+                <li>Jest</li>
+                <li>Serverless</li>
+                <li>Monorepo</li>
+                <li>AWS</li>
+                <li>Hosting</li>
               </ul>
             </div>
           </div>

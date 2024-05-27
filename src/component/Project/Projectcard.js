@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projectcard.css";
+import { FaGithub } from "react-icons/fa";
+import { CiLink } from "react-icons/ci";
 function Projectcard({ data }) {
   return (
     <div className="main">
-      <div className="projecthead">
-        <span className="projhead"> 0.2 </span>Somethings I've built{" "}
-      </div>
+      
       <div className="projcont">
         <img src={data.img_link} alt="" className="img" />
         <div className="aboutproject">
@@ -14,12 +14,8 @@ function Projectcard({ data }) {
           <div className="projdetail">{data.detail}</div>
           <div className="techused">{data.tech}</div>
           <div className="icon">
-            <a href={data.git_link} target="_blanck">
-              <i class="fa-brands fa-github fa-2x icos"></i>
-            </a>
-            <a href={data.proj_link} target="_blanck">
-              <i class="fa-solid fa-link fa-2x icos"></i>
-            </a>
+         <a href={data.git_link} target="_blanck"><FaGithub color="white" size="51px" /></a> 
+         <a href={data.proj_link} target="_blanck"><CiLink color="white" size="51px" /></a> 
           </div>
         </div>
       </div>

@@ -12,19 +12,8 @@ function Home() {
     <div>
       <Navbar />
       <div className="partition">
-        <div className="sidepart">
-          {" "}
-          <a
-            rel="noreferrer"
-            target="_blanck"
-            href="https://github.com/aryantiwari8736"
-          >
-            <i class="fa-brands fa-github fa-2x icoco1"></i>
-          </a>
-          <a href="https://www.instagram.com/_shanu_14_/">
-            <i class="fa-solid fa-link fa-2x icoco2"></i>
-          </a>
-        </div>
+        
+       
         <div>
           <First />
           <About />
@@ -32,23 +21,7 @@ function Home() {
           <Contact />
           <Footer />
         </div>
-        <div className="sidepart2">
-          {" "}
-          <a
-            href="https://www.linkedin.com/in/aryan-tiwari-b397b8229/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa-brands fa-linkedin fa-2x icoco1"></i>
-          </a>{" "}
-          <a
-            href="https://twitter.com/aryantiwari_14"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa-brands fa-twitter fa-2x icoco2"></i>
-          </a>
-        </div>
+
       </div>
     </div>
   );

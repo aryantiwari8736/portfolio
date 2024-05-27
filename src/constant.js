@@ -1,5 +1,21 @@
 export const data = [
   {
+    img_link: "springbee.png",
+    heading: "SpringBee",
+    detail: "It is a lms portal website.",
+    tech: "Next, typescript, node, express, socket, redis, mongoDb.",
+    git_link: "https://github.com/aryantiwari8736/client",
+    proj_link: "https://springbee.live",
+  },
+  {
+    img_link: "technocrats.png",
+    heading: "Technocrats",
+    detail: "Official website of Technocrats club kiet",
+    tech: "ReactJs, Javscript, Tailwind CSS.",
+    git_link: "https://github.com/aryantiwari8736/client",
+    proj_link: "https://technocrats.live/",
+  },
+  {
     img_link: "ching.png",
     heading: "foodspy",
     detail: "It is a food ordering website like zomato ,swiggy etc.",

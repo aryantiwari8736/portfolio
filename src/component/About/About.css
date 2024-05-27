@@ -18,19 +18,22 @@
     font-size: 1.2em;
     margin: 10px;
     line-height: 30px;
+
 }
 .cont{
     display: flex;
     /* width: 70vw; */
     justify-content: space-around;
     color: #8892b0;
+    margin: 10px;
     margin-top: 50px;
     align-items: center;
+
 
 }
 .cont p {
     display: flex;
-    text-align: justify;
+   
 }
 .skill-heading{
     margin-top: 10px;
@@ -38,7 +41,7 @@
 }
 .img{
     
-     width:50vw;
+     width:40vw;
     border-radius: 10px;
     
     

@@ -2,9 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 20px;
+  justify-content: center;
+ margin: 30px;
+ margin-top: 40px;
+ min-height: 80vh;
 }
 .land-name{
+ 
     color: #64ffda; 
     margin-bottom: 10px; 
 }
@@ -24,9 +28,8 @@
  
 }
 .btn {
-  margin-left: 20px;
+  margin-left: 0px;
   margin-top: 40px;
-  margin-bottom: 100px;
   color: #64ffda;
   border: 1px solid #64ffda;
   border-radius: 4px;

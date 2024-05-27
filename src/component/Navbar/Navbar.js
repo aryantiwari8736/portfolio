@@ -7,7 +7,7 @@ function Navbar() {
         <div className="head">Aryan's Portfolio!</div>
         <ul>
           <a
-            href="https://drive.google.com/file/d/16o7k8Zbp0kGiOCK96HSWawX0O6QFwC0r/view?usp=share_link"
+            href="https://drive.google.com/file/d/1e2tkftMTXgoBYQmIg_X7lYICijuL_-u7/view?usp=sharing"
             className="navitem"
             target="_blanck"
           >

@@ -4,14 +4,11 @@ function First() {
   return (
     <div>
       <section className="landing-page-first-sec">
-        <div className="land-name">Hi,my name is</div>
+        <div className="land-name">Hi, my name is</div>
         <div className="datahead">Aryan Tiwari </div>
         <div className="datahead">I build things for the web</div>
         <p className="mypara">
-          I'm B.Tech 2nd year student. I have some Experience in ReactJs ,
-          NodeJs , ExpessJs Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Illo quos inventore, saepe recusandae excepturi velit nam porro
-          libero in rem.
+          I'm B.Tech 4th year student. I am a full-stack developer. I have some Experience in ReactJs, Redux, Node, express, MongoDb, Postgres, Docker, Serverless, Sql, Next, Typescript, Prisma, Monorepo. Feel free to connect with me.
         </p>
         <a
           target="_blanck"
